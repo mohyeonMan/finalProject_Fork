@@ -9,7 +9,7 @@ import org.springframework.scheduling.annotation.EnableScheduling;
 
 @EntityScan(basePackages = {"movie.bean","com.main.bitfinal.memberService.memberEntity","com.adminBoard.bean","user.bean","store.bean"})
 @EnableJpaRepositories(basePackages = {"movie.dao", "com.main.bitfinal.memberService.repository","com.adminBoard.dao","user.dao","store.dao"})
-@ComponentScan(basePackages = {"com.main.bitfinal","com.adminBoard.*","user.*","store.*", "movielistmain.controller","movielistmaster.controller", "movie.*"})
+@ComponentScan(basePackages = {"com.main.bitfinal","com.adminBoard.*","user.*","store.*","movie.*"})
 @SpringBootApplication
 @EnableScheduling
 public class BitFinalApplication {
